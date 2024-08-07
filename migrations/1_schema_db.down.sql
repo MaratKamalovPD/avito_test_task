@@ -1,3 +1,6 @@
 DROP TABLE IF EXISTS public.house CASCADE;
 DROP TABLE IF EXISTS public.flat CASCADE;
 DROP TABLE IF EXISTS public.user CASCADE;
+DROP TABLE IF EXISTS public.developer CASCADE;
+DROP TYPE IF EXISTS user_type; 
+DROP TYPE IF EXISTS moderations_status;
